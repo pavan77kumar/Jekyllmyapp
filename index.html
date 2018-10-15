@@ -26,7 +26,11 @@
 
 <!-- main -->
 <main class="page-content" aria-label="Content">
-      
+      {% if page.show_sidebar %}
+  <div class="sidebar">
+    sidebar content
+  </div>
+{% endif %}
     </main>
 	<!-- main -->
 	
