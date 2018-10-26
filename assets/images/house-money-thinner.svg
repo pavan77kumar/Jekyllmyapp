@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 82 100" style="enable-background:new 0 0 82 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F1C400;stroke-width:2;}
+	.st1{fill:none;stroke:#31AFDF;stroke-width:2;}
+</style>
+<title>pnm-icon-house-money</title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g id="Illustrations-_x2F_-Money-House" transform="translate(2.000000, 2.000000)">
+		<g id="pnm-icon-house-money">
+			<g id="money" transform="translate(16.000000, 36.000000)">
+				<circle id="Oval" class="st0" cx="22.5" cy="22.5" r="22.4"/>
+				<path id="Shape" class="st0" d="M28.8,11.7C27.1,10.5,25,9.9,23,9.8c-3.2,0-6.2,2.7-6.2,5.5c0,2.8,2,5.2,6.2,6.9
+					c4.8,2,6.3,3.9,6.3,6.9c0,3.9-3.9,5.9-7.3,5.9c-2.2,0-4.5-0.7-6.3-1.9"/>
+				<path id="Shape_1_" class="st0" d="M24.4,5.4l-3.9,34.1"/>
+			</g>
+			<g>
+				<path class="st1" d="M77.3,36.6L77.3,36.6l-1.8-1.5L38.7,5L0,36.7v43.5C0,88.9,7.3,96,16.3,96H61c9,0,16.3-7.1,16.3-15.8
+					L77.3,36.6L77.3,36.6z"/>
+				<polygon class="st1" points="77.3,0.9 62,1 62,24 75.5,35.2 77.3,36.6 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

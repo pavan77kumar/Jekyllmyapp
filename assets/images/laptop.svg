@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="192px" viewBox="0 0 246 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-laptop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-laptop" transform="translate(3.000000, 3.000000)">
+            <g id="laptop" fill-rule="nonzero">
+                <g id="Group-2" stroke="#31AFDF" stroke-width="6.05042017">
+                    <path d="M19.5773127,128.121917 L220.393312,128.121917 L220.393312,18.2464852 C220.393312,8.73213209 212.775103,0.752352103 203.023795,0.752352103 L36.9468301,0.752352103 C27.5002505,0.752352103 19.5773127,8.42521748 19.5773127,18.2464852 L19.5773127,128.121917 Z M239.103632,170.356827 L239.103632,185.691768 L0.0746874271,185.691768 L0.0746874271,170.356827 L19.1970076,128.03243 L220.399611,128.03243 L239.103632,170.356827 Z" id="Shape-Copy"></path>
+                </g>
+                <rect id="Rectangle-path" fill="#31AFDF" x="87.6190476" y="170.836957" width="65.7329599" height="6.06521739"></rect>
+            </g>
+            <text id="Let’s-mortgage." font-family="Gilroy-Bold, Gilroy" font-size="32" font-weight="bold" line-spacing="28" fill="#F1C400">
+                <tspan x="41" y="71">Let’s</tspan>
+                <tspan x="41" y="99">mortgage.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
