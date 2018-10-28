@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us-/-Desktop" transform="translate(-518.000000, -1028.000000)">
+            <g id="Key-stats-block" transform="translate(170.000000, 895.000000)">
+                <g id="Calendar" transform="translate(348.000000, 133.000000)">
+                    <path d="M0,0 L0,37 C3.44188981e-15,43.0751322 4.92486775,48 11,48 L37,48 C43.0751322,48 48,43.0751322 48,37 L48,0 L0,0 Z M46,37 C46,41.9705627 41.9705627,46 37,46 L11,46 C6.02943725,46 2,41.9705627 2,37 L2,2 L46,2 L46,37 Z" id="Shape" fill="#31AFDF" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-path" fill="#F1C400" fill-rule="nonzero" x="10" y="8" width="28" height="2"></rect>
+                    <text id="08" font-family="Gilroy-Bold, Gilroy" font-size="20" font-weight="bold" letter-spacing="-0.200000003" fill="#31AFDF">
+                        <tspan x="12" y="35">0</tspan>
+                        <tspan x="24.3976562" y="35">8</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

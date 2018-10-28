@@ -3,5 +3,9 @@ layout: default
 title: About
 ---
 {% include header.html %}
- 
-  sfsfsdfdsfsfs
+ {% include about-us/banner-content.html %}
+ {% include about-us/about-us-content.html %}
+
+
+
+ {% include footer.html %}
