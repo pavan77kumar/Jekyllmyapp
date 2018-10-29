@@ -2,7 +2,62 @@
 layout: default
 ---
 {% include header.html %}
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
  
-{{ content }}
+ 
+ {% include nav-breadcrumbs.html %}
+
+{% if page.image %}
+        <img src="{{ page.image  | relative_url}}">
+ 
+     
+{% endif %}
+<article role="article"  class="container py-5 pt-3">
+ 
+  <div class="row d-flex align-items-center">
+    <div class="col-md-7 mb-4">
+      <a href="{{ '/blog' | relative_url }}">
+        <i class="fa fa-arrow-left mr-2 mb-4" aria-hidden="true"></i>Back to blog list
+      </a>
+      <h1 class="text-pennymac-gray-medium">{{ page.title }}</h1>
+      <p class="text-muted mb-1 small">
+        <span class="text-nowrap mr-3"><i class="fa fa-calendar mr-2" aria-hidden="true"></i>{{ page.date | date: "%m/%d/%Y" }}</span>
+        <i class="far fa-user-circle mr-2" aria-hidden="true"></i>{{ page.author }}
+      </p>
+      
+    </div>
+  
+  </div>
+ <div class="row my-3">
+    <div class="col-md-8 offset-md-2">
+      {{ content }}
+    </div>
+  </div> 
+</article>
+
+
+ <nav class="row mb-5 mt-0" aria-label="Pages" role="navigation">
+    <div class="col-md-4 offset-md-2 p-0">
+      {% if page.next.url %}
+        <div class="border-top-1">
+          <p class="text-muted small">Previous Post</p>
+          <div class="p-4 h4">
+            <a href="{{ page.next.url | relative_url }}">
+              {{ page.next.title }}
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+    <div class="col-md-4 p-0 border-left-1-md-up">
+      {% if page.previous.url %}
+        <div class="border-top-1">
+          <p class="text-muted small text-right">Next Post</p>
+          <div class="p-4 h4 text-right">
+            <a href="{{ page.previous.url | relative_url }}">
+              {{ page.previous.title }}
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </nav>

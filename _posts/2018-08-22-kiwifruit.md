@@ -1,6 +1,10 @@
 ---
 layout: post
 author: ted
+image: assets/images/our-mission.jpg
+image_height: 500
+image_width: 1600
+image_alt_text: "HARP assists homeowners in refinancing their mortgages."
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.
