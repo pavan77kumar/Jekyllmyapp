@@ -15,26 +15,38 @@ title: Blog
   {% endfor %}
 </ul> -->
 
+<div class="breadcrumbs-blog">
 {% include nav-breadcrumbs.html %}
- <ul class="post-list">
-   {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
-        </h2>
-       
-         
-      </li>
+</div>
 
-     
-   <a href="{{ post.url}}"> <img src="/{{ post.image }}"></a>
-    
- <span class="post-meta">{{ post.date | date: "%d. %-m. %Y" }}</span>
+<div class="row clearfix justify-content-start">
+<div class="blog-list-wrapper">
+<ul class="post-list">
+{% for post in site.posts %}
+<li class="blog-list-img">  
+<a href="{{ post.url}}"> <img src="/{{ post.image }}"></a>
+</li>
+<li>  
+<span class="post-meta">{{ post.date | date: "%d. %-m. %Y" }}</span>
+</li>
+<li>
+<h2>
+<a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
+</h2>
+</li>
+{{ post.excerpt }}
+<li>
+<a class="btn btn-default" style="margin-left:-10px; position:relative;" href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+</li>
 
-      {{ post.excerpt }}
-      <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
-    {% endfor %}
-  </ul>
+{% endfor %}
+</ul>
+
+</div>
+
+</div>
+
+{% include footer.html %}
 
   
   

@@ -1,4 +1,41 @@
  @import "main";
  
+ .blog-list-wrapper {
+	 width:80%;
+	 margin:0px auto;
+	 position:relative;
+	 overflow:hidden;
+	 
+ } 
+ .blog-list-wrapper  .post-list {
+	 
+	     background: #F5F5F5;
+ }
+.post-list  li{
+	 
+list-style-type: none;
+ }
+ 
+.blog-list-wrapper  .blog-list-img img {
+	width: 90%;
+    padding: 10px;
+}
+.blog-banner-img img {
+	width: 100%;
+	
+} 
+.breadcrumbs-blog {
+	margin-left:10%;
+	padding-bottom:20px;
+	
+}
+.breadcrumbs-blog-details {
+padding:10px;
+}
 
+.top-navigation nav a {
+	    padding: 10px;
+    font-size: 20px;
+	
+}
  
